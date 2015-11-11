@@ -1,0 +1,28 @@
+Excalibur:src Lathian$ java CommandLineCalc 2 + 3
+The calculation = 5
+Excalibur:src Lathian$ java CommandLineCalc y + 7
+y is not a number please enter the number: 3.0
+The calculation = 10.00
+Excalibur:src Lathian$ java CommandLineCalc 7 "#" 7
+# is not an operator please renter the operator: /
+The calculation = 1
+Excalibur:src Lathian$ java CommandLineCalc 7 + 
+You are missing a trailing operator after + . Please enter a number : 5.0
+The calculation = 12
+Excalibur:src Lathian$ java CommandLineCalc 7 + 
+You are missing a trailing operator after + . Please enter a number : 5
+The calculation = 12
+Excalibur:src Lathian$ java CommandLineCalc 2 / 0
+Zero following /  is not permissible please choose another number: 1
+The calculation = 2
+Excalibur:src Lathian$ java CommandLineCalc 2 % 0
+Zero following %  is not permissible please choose another number: 2
+The calculation = 0
+
+(Having a few issues from Mac terminal expansions on * surround with '' seems to fix it)
+
+Excalibur:src Lathian$ java CommandLineCalc '2.0' + '30' '*' 2
+The calculation = 62.00
+Excalibur:src Lathian$ java CommandLineCalc '15.0' + '30' '/' '2' '+' '2' % '2' 
+The calculation = 30.00
+
